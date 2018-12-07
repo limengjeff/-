@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+#coding:utf-8
+
+def agea(x,y=2018):
+    print "x=",x
+    print "y=",y
+    agea=y-x
+
+    if agea <=20:
+        print"you are young"
+      
+    elif agea >20:
+         print"you are old"
